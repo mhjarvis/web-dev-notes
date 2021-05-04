@@ -20,4 +20,8 @@ The ```position``` property specifies the positioning method used for an element
   * positioned based on the user's scroll position.
   * will stay in the viewport when scrolling and it hits limit.
 
-## The
+## The ```z-index``` Property
+The ```z-index``` property specifies the stack order of an element. This will only work on positioned elements and flex items.
+* A ```z-index``` of 2 will be above an element with a z-index of 1 or -2.
+
+## 
