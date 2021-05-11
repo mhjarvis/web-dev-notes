@@ -49,3 +49,8 @@ Amending a commit creates a new commit and updates pointers. It leaves a danglin
 
     git commit --amend -m "new comment message"
     
+## Clean Commits with .gitignore
+.gitignore allows us to put paths into a file where all contained files will be ignored when we stage items for committing.
+
+    echo "*.exe" > .gitignore               //add all *.exe files to gitignore to prevent uploading via git
+    
