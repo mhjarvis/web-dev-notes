@@ -30,7 +30,7 @@ This is the list of files that are staged to go into the next commit. Files can 
 * **Modified** - The file is present in both workspace and repository, but is different.
 * **Staged** - The file is in the workspace, current commit, and stage. Can be different in all three locations.
 * **Untracked** - The file is in the workspace, but not in the current commit.
-    
+     
 A basic commit works as follows:
 
     git commit -m "some message about the commit"                       //basic commit
