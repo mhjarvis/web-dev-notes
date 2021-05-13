@@ -60,4 +60,18 @@ Prefixing with a "!" will include that file.
     *.png                                   //ignore all .png images
     !images/*.png                           //include all .png files in the images folder
     
+<h1 align=center>----- Linear History -----</h1>
+
+A **branch** is a reference to a single commit. The branch that is currently active is said to be checked out. Git uses a file called **HEAD** to keep track of what is currently checked out. The HEAD pointer will also move as we create commits. HEAD is aso pointing to the branch that our workspace and stage are compared to when we use commands like ```git status```.
+
+    git checkout <target>                   //checking out a specific version of code
+
+When checking out, two things happen: the HEAD pointer moves to the specific revision, then it takes the content there and moves it to the workspace. This will be aborted if the operation is not safe. 
+
+## The ```diff``` Command
+The ```diff``` command shows the difference between two commits. 
+
+    git diff <commit1> <commit2>            //order of commits does matter
+
+
 
