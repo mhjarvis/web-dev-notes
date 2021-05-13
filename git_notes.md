@@ -53,4 +53,11 @@ Amending a commit creates a new commit and updates pointers. It leaves a danglin
 .gitignore allows us to put paths into a file where all contained files will be ignored when we stage items for committing.
 
     echo "*.exe" > .gitignore               //add all *.exe files to gitignore to prevent uploading via git
+    echo "t.txt" > .gitignore               //this will prevent the file 't.txt' from being added to your commit
     
+Prefixing with a "!" will include that file.
+
+    *.png                                   //ignore all .png images
+    !images/*.png                           //include all .png files in the images folder
+    
+
