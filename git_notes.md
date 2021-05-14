@@ -73,5 +73,13 @@ The ```diff``` command shows the difference between two commits.
 
     git diff <commit1> <commit2>            //order of commits does matter
 
+<h1 align=center>----- Complex Branching -----</h1>
+
+A branch is the file containing the sha of the commit it points to. To create branches we can:
+
+    git branch <branch-name> <commit>       //e.g. git branch mybranch master
+                                            //creates a branch in the repository; will point to same commit as master
+    
+
 
 
