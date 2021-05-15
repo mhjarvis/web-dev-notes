@@ -28,4 +28,30 @@ Linear time applies to algorithms that must do _n_ operations in the worst-case 
         }
     }
 
-As n grows, the time to complete the algorithm steadily increases.
+As _n_ grows, the time to complete the algorithm linearly and in direct proportion to the size of the input data set. Other examples:
+* Sequential search will be O(n), since the algorithm will start at the beginning of an array (for example), and look at each number until it reaches the end of the array (worst-case scenario). 
+
+## O(n^2) - Quadratic Time
+Quadratic time represents an algorithm whose performance is directly proportional to the square of the size of the input data set. Common in algorithms using nested iterations. One example is:
+
+    function quadratic(n) {
+        for(let i = 0; i < n; i++) {
+            console.log(i);
+            for(let j = 0; j < n; j++) {
+                console.log(j);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
