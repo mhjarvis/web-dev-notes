@@ -43,7 +43,7 @@ Quadratic time represents an algorithm whose performance is directly proportiona
         }
     }
 
-
+Bubble sort would be another example of quadratic time. Here we can also see cubic time, O(n^3). For cubic time, we could use the example of three nested loops.
 
 
 
