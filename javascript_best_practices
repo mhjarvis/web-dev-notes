@@ -1,1 +1,5 @@
+# Check if a variable is defined, is a string, and is not empty.
 
+    if(typeof someVariable === 'string') {
+      return true;
+    }
