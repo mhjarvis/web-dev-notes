@@ -2,7 +2,6 @@
  * You want to verify that a variable is defined, is a string, and is not empty before using it.
  */
 
-
 /* Get user string input */
 let str = prompt("Please enter a string to test: ");
 
